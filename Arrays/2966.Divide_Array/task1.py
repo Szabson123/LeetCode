@@ -1,3 +1,8 @@
+# Masz daną tablicę liczb całkowitych nums oraz liczbę całkowitą S. Twoim zadaniem jest podzielić tablicę
+# na podtablice (grupy) składające się z dowolnej liczby elementów, tak aby suma elementów w każdej podtablicy
+# nie przekraczała S. Każdy element z nums musi znaleźć się w dokładnie jednej podtablicy.
+
+
 def check():
     nums = [5, 1, 2, 7, 3, 4]
     S = 8
