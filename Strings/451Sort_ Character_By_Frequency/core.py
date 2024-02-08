@@ -1,4 +1,4 @@
-s = 'tree'
+s = 'treedasasdwasddaswsadasdass3ggdasfqwasdasd'
 
 digit = [digit for digit in s]
 
@@ -12,3 +12,5 @@ for element in digit:
 
 sorted_chart = sorted(counter.items(), key=lambda x: x[1], reverse=True)
 result = ''.join([char * freq for char, freq in sorted_chart])
+
+print(result)
