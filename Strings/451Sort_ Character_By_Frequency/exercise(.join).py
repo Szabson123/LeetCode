@@ -29,3 +29,14 @@ word1 = 'python'
 done1 = '*'.join(word)
 
 print(done1)
+
+# ZAD3
+
+list_to_done = [1, 2, 3, 4, 5]
+
+strings = [str(list_to_done) for list_to_done in list_to_done]
+
+done3 = ' '.join(strings)
+
+print(strings)
+print(done3)
