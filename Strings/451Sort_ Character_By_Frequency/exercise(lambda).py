@@ -7,3 +7,17 @@
 # aby posortować poniższą# listę krotek po drugim elemencie każdej krotki:
 # [(1, 2), (3, 1), (5, 0), (4, 2)].
 
+# zad 1
+wynik = lambda liczba: liczba*liczba
+print(wynik(5))
+
+# zad2
+liczby = [1, 2, 3, 4, 5, 6]
+even = list(filter(lambda x: x % 2 == 0, liczby))
+print(even)
+
+#zad3
+counter = [(1, 2), (3, 1), (5, 0), (4, 2)]
+sorting = sorted(counter, key=lambda x: x[1])
+
+print(sorting)
