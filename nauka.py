@@ -44,3 +44,51 @@ else:
 
 for i in range(1, 6):
     print(i)
+
+
+liczby1 = [1, 2, 3, 4, 5, 6, 7]
+
+# print(liczby)
+
+ogolna_lista = ['siemanko', 12, 12.5, [7, 4, 6]]
+
+print(ogolna_lista)
+print(ogolna_lista[0])
+
+for i in ogolna_lista:
+    print(i)
+
+# for i in range(len(ogolna_lista)):
+#     print(ogolna_lista[i])
+
+
+liczby = [2, 2, 5, 4, 9, 6, 7]
+
+for i in range(len(liczby)-1):
+    if liczby[i] > liczby[i+1]:
+        print('Lewy większy od prawego')
+    else:
+        print('Lewy nie jest większy od prawego')
+
+
+# lista_zakupow = ['mleko', 'por', 'chleb']
+#
+#
+# lista_zakupow.append('masło')
+#
+# print(lista_zakupow)
+#
+# lista_zakupow.pop(0)
+#
+# print(lista_zakupow)
+#
+# if 'jaja' not in lista_zakupow:
+#     lista_zakupow.append('jaja')
+#
+# print(lista_zakupow)
+
+
+lista_zakupow = ['Dubaj', 'Cypr', 'Budapeszt', 'Londyn']
+
+lista_zakupow.append('Madera')
+print(lista_zakupow)
