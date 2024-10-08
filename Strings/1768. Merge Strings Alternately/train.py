@@ -1,13 +1,18 @@
 word1 = 'abc'
-word2 = 'pqr'
+word2 = 'pqrds'
 
-word1_list = [char for char in word1]
-word2_list = [char for char in word2]
 
-marged_list = []
+i, j = 0, 0
+res = []
 
-for letter in range(word1_list, word2_list):
-    marged_list.append(word1_list[letter])
-    marged_list.append(word2_list[letter])
-    
-print(marged_list)
+while i < len(word1) and j < len(word2):
+    res.append(word1[i])
+    res.append(word2[j])
+
+    i+=1
+    j+=1
+
+res.append(word1[i:])
+res.append(word2[j:])
+
+print("".join(res))
